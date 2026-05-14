@@ -33,4 +33,4 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!confirm('Eliminar este producto del carrito?')) e.preventDefault();
     });
   });
-});
+}); 
