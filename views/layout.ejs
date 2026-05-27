@@ -46,8 +46,11 @@
     Carrito
     <span class="cart-badge"><%= cartItemCount %></span>
   </a>
-  <!-- Sesión de usuario -->
-  <% if (userSession) { %>
+  <!-- Sesión de usuario 
+  <% if (userSession) { %> -->
+
+    <% if (typeof userSession !== 'undefined' && userSession) { %>
+
     <a href="/customer/dashboard"
        class="btn btn-light btn-sm d-flex align-items-center gap-1">
       <i class="bi bi-person-circle"></i>
