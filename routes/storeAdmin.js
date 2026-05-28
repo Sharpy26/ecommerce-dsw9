@@ -19,6 +19,6 @@ router.get( '/settings',              ctrl.showSettings);
 router.post('/settings',              ctrl.updateSettings);
 
 router.get( '/payout', paypalCtrl.showPayout);
-router.post('/payout', paypalCtrl.processPayout);
+router.post('/payout', paypalCtrl.processPayout); 
 
 module.exports = router;
